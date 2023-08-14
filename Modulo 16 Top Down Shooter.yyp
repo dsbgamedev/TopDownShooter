@@ -49,6 +49,7 @@
     {"id":{"name":"Creditos do artista","path":"notes/Creditos do artista/Creditos do artista.yy",},},
     {"id":{"name":"spr_player_strip8","path":"sprites/spr_player_strip8/spr_player_strip8.yy",},},
     {"id":{"name":"spr_inimigo_ovo_strip6","path":"sprites/spr_inimigo_ovo_strip6/spr_inimigo_ovo_strip6.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_bg3","path":"sprites/spr_bg3/spr_bg3.yy",},},
     {"id":{"name":"spr_player_tiro","path":"sprites/spr_player_tiro/spr_player_tiro.yy",},},
     {"id":{"name":"Anotações","path":"notes/Anotações/Anotações.yy",},},
