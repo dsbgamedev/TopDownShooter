@@ -26,6 +26,13 @@ movimentacao = function()
 	
 }
 
+atirando =  function()
+{
+	//Pegando a direção do player em relação ao mouse
+	var _dir = point_direction(x,y, mouse_x,mouse_y);
+	//Fazendo o Player olhar para a direção do mouse
+	image_angle = _dir;
+}
 
 
 

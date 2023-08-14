@@ -3,6 +3,9 @@
 
 movimentacao();
 
+atirando();
 
 
 
+
+d
