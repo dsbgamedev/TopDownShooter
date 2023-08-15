@@ -63,6 +63,13 @@ atirando =  function()
 			
 			//Atirei? Então eu reseto o valor da espera do tiro
 			espera_tiro = demora_tiro;	
+			
+			//Usando a sprite do tiro
+			sprite_index = spr_player_tiro;
+		}
+		else
+		{
+			sprite_index = spr_player_strip8;	
 		}
 	}
 	else //Espera tiro é maior do que 0, então eu diminuo ela
