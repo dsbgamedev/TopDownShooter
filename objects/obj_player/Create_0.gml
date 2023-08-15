@@ -5,15 +5,16 @@ velocidade = 5;
 velh	   = 0
 velv       = 0;
 
+
 movimentacao = function()
 {
-	var _up, _down, _left, _height;
+	var _up, _down, _left, _right;
 	
 	//Pegando o input do usuário
 	_up = keyboard_check(ord("W"));
 	_down = keyboard_check(ord("S"));
 	_left = keyboard_check(ord("A"));
-	_height = keyboard_check(ord("D"));
+	_right = keyboard_check(ord("D"));
 	
 	//Checando para onde ele se move
 	velv = (_down - _up) * velocidade;
@@ -21,8 +22,19 @@ movimentacao = function()
 	y  += velv;
 	
 	//Alterando o eixo X (movimentando na horizontal)
-	velh = (_height - _left) * velocidade;
+	velh = (_right - _left) * velocidade;
 	x += velh;
+	
+	//Controlando a animação
+	if(_up || _down or _left || _right)
+	{
+		image_speed = 1;
+	}
+	else//Não estou me movendo
+	{
+		image_speed = 0;
+		//image_index = 0;
+	}
 	
 }
 
