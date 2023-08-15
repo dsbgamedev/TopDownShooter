@@ -110,6 +110,10 @@ levar_dano = function(_dano)
 //Metodo explodir o inimigo
 explodir = function()
 {
+	//Criando rastro
+	var _rastro = instance_create_layer(x,y,"Tiros", obj_rastro);
+	//Angulo aleatorio para meu rastro
+	_rastro.image_angle = irandom(35);
 	//Criando um numero aleatorio de pedaços
 	var _qtd = irandom_range(5,10);
 	

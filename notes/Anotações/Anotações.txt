@@ -25,5 +25,6 @@
 	4.4 - Fazer com que o inimigo siga o player caso o jogador esteja perto - FEITO
 	4.5 - Matando o inimigo ao levar tiro - FEITO
 		4.5.1 - Fazendo o inimigo explodir, criar pedaços da explosão - FEITO
-		4.5.2 - Destruindo pedaços do inimigo - * 
+		4.5.2 - Destruindo pedaços do inimigo - FEITO
+		4.5.3 - Criando vestigios dos inimigos - FEITO
 	

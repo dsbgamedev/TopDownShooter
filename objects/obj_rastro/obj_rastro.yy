@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_pedaco",
+  "name": "obj_rastro",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pedaco_inimigo",
-    "path": "sprites/spr_pedaco_inimigo/spr_pedaco_inimigo.yy",
+    "name": "spr_rastro",
+    "path": "sprites/spr_rastro/spr_rastro.yy",
   },
   "spriteMaskId": null,
   "visible": true,
