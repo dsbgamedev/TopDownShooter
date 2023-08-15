@@ -31,4 +31,7 @@
 5 - Efeitos da tela
 	5.1 - Criar um objeto sceenshake e criar metodo treme_tela - FEITO
 	
+5 - Inimigos Grandes
+	
+	
 	
