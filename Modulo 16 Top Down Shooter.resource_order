@@ -21,6 +21,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"Player","order":1,"path":"folders/Objects/Player.yy",},
+    {"name":"Inimigos","order":2,"path":"folders/Objects/Inimigos.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_seta","order":1,"path":"sprites/spr_seta/spr_seta.yy",},

@@ -4,7 +4,6 @@
 	1.3 - Fazendo o Player se movimentar em todas as direções - FIETO
 	1.4 - Parar animação do Player quando ele estiver parado - FEITO
 	
-
 2 - Room e Camera do jogo
 	2.1 - rRedimencionando a room do jogo e a camera - FEITO
 	2.2 - Colocando a camera para seguir o objeto Player - FEITO
@@ -18,4 +17,9 @@
 		3.4.1 - Importar a sprite do efeito do tiro - FEITO
 	3.5 - Fazendo o tiro se destruir - FEITO
 	3.6 - Alterando a sprite do tiro - FEITO
+
+4 - Inimigo
+	4.1 - Importando a sprite do inimigo e criando o objeto dele - FEITO
+	4.2 - Fazendo ele ter uma direção e velocidade aleatória - *
+	
 	
