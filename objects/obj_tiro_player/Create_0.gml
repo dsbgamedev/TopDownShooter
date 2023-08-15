@@ -38,7 +38,7 @@ efeito_tiro = function()
 	//Mudando o blendmode
 	gpu_set_blendmode(bm_add);
 	//Desenhando a sprite do efeito
-	draw_sprite_ext(spr_tiro_efeito,0,x,y,image_xscale *1.1,image_yscale * 1.1,image_angle,c_red,0.7);
+	draw_sprite_ext(spr_impacta_tiro,0,x,y,image_xscale *1.1,image_yscale * 1.1,image_angle,c_red,0.7);
 	gpu_set_blendmode(bm_normal);
 }
 
@@ -60,7 +60,12 @@ colidi_inimigo = function()
 	 _inimigo.levar_dano(dano);
       //Me destruindo
 	  instance_destroy();
+	  
+	  //Criando o impacto
+	  instance_create_layer(x,y,layer, obj_impacto_tiro);
 	}
+	
+	
 }
 
 
