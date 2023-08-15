@@ -8,6 +8,10 @@ image_yscale = image_xscale; //isso mantem a proporção dos angulos
 //Tempo de espera para destruir o tiro
 demora_morte = room_speed * 4;
 
+//Variavel de dano
+dano = 1;
+
+
 //Metodo destruindo tiro
 morrendo = function()
 {
@@ -36,6 +40,27 @@ efeito_tiro = function()
 	//Desenhando a sprite do efeito
 	draw_sprite_ext(spr_tiro_efeito,0,x,y,image_xscale *1.1,image_yscale * 1.1,image_angle,c_red,0.7);
 	gpu_set_blendmode(bm_normal);
+}
+
+//Metodo colidindo com o inimigo
+colidi_inimigo = function()
+{
+	//este código vai tirar 1 de vida se eu colidir com o inimigo
+	//e já que foi usado o instance place ele 
+	//salva o ID da instância do inimigo que colidiu comigo, 
+	//então eu posso destruir o inimigo passando a variável _inimigo 
+	//no instance destroy
+	
+	//Variavel para checar colisão com algum objeto
+	var _inimigo = instance_place(x,y,obj_inimigo01);
+	
+	//Se eu colidir com algum inimigo eu tiro vida dele e me mato
+	if(_inimigo)
+	{
+	 _inimigo.levar_dano(dano);
+      //Me destruindo
+	  instance_destroy();
+	}
 }
 
 

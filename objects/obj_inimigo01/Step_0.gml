@@ -3,6 +3,9 @@
 
 ficar_room();
 
+mudar_movimento();
+
+seguir_player();
 
 
 

@@ -20,6 +20,8 @@
 
 4 - Inimigo
 	4.1 - Importando a sprite do inimigo e criando o objeto dele - FEITO
-	4.2 - Fazendo ele ter uma direção e velocidade aleatória - *
-	
+	4.2 - Fazendo ele ter uma direção e velocidade aleatória - FEITO
+	4.3 - Fazer com que o inimigo altera a direção de tempo em tmepo
+	4.4 - Fazer com que o inimigo siga o player caso o jogador esteja perto - FEITO
+	4.5 - Matando o inimigo ao levar tiro - FEITO
 	

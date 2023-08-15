@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Váriaveis do time de movimento
+timer_movimento = room_speed * random_range(4,10);
+
+//Distancia para ele seguir o player
+distancia  = 200;
+
+//Variavel de vida
+vida = 3;
 
 
 //Metodo para definir velocidade e direção
@@ -36,4 +44,62 @@ ficar_room = function()
 		if(y + sprite_height/2 > room_height) vspeed *= -1;
 }
 
+//Metodo meu timer para mudar de movimento 
+mudar_movimento = function()
+{
+	//Diminuir o timer
+	timer_movimento--;
+	
+	if(timer_movimento <= 0)
+	{
+		define_movimento();
+		
+		//Resetando o timer
+		timer_movimento = room_speed * random_range(4,10);
+	}
+	
+}
 
+//Método inimigo persegue o player se estiver proximo
+seguir_player = function()
+{
+	//Checando a minha distancia para o player	
+	//Checando se o Player existe
+	if(instance_exists(obj_player))
+	{
+		//Pegando a distancia
+		var _dist_player = point_distance(x,y,obj_player.x,obj_player.y);
+		
+		//Seguindo o player SE ele estiver muito proximo
+		if(_dist_player < distancia)
+		{
+			//Pegando a direção do Player
+			var _dir = point_direction(x,y,obj_player.x,obj_player.y);
+			direction = _dir;
+			//usando uma velocidade padrão
+			speed = 1;
+		}
+	}
+	
+	
+}
+
+//Metodo de levar dano 
+///@method levar_dano(valor_dano);
+levar_dano = function(_dano)
+{
+	//Garantindo que se a pessoa nao passar valor para do dano ele vai valer 1
+	//Se o dano é indefinido ele e igual a 1
+	if(_dano == undefined)//undefined significa que ele nao tem um valor definido
+	{
+		_dano = 1;	
+	}
+	//Perdendo vida 
+	vida -= _dano
+	//Se estou sem vida eu morro
+	if(vida <= 0)
+	{
+		instance_destroy();
+	}
+		
+}

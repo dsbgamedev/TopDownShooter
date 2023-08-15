@@ -5,7 +5,7 @@ efeito_tamanho();
 
 morrendo();
 
-
+colidi_inimigo();
 
 
 
