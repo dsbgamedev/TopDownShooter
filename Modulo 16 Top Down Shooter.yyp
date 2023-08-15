@@ -31,6 +31,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tiro","folderPath":"folders/Sprites/Tiro.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Objects/Player.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Creditos do artista.txt","CopyToMask":-1,"filePath":"datafiles",},
@@ -58,6 +59,7 @@
     {"id":{"name":"spr_tiro_efeito","path":"sprites/spr_tiro_efeito/spr_tiro_efeito.yy",},},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},},
     {"id":{"name":"spr_tiro_boom_strip4","path":"sprites/spr_tiro_boom_strip4/spr_tiro_boom_strip4.yy",},},
+    {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

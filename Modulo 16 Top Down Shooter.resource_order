@@ -20,6 +20,7 @@
     {"name":"Tiro","order":16,"path":"folders/Sprites/Tiro.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Player","order":1,"path":"folders/Objects/Player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_seta","order":1,"path":"sprites/spr_seta/spr_seta.yy",},
@@ -32,5 +33,6 @@
     {"name":"spr_inimigo2_strip8","order":2,"path":"sprites/spr_inimigo2_strip8/spr_inimigo2_strip8.yy",},
     {"name":"spr_tiro_efeito","order":2,"path":"sprites/spr_tiro_efeito/spr_tiro_efeito.yy",},
     {"name":"spr_tiro_boom_strip4","order":1,"path":"sprites/spr_tiro_boom_strip4/spr_tiro_boom_strip4.yy",},
+    {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},
   ],
 }

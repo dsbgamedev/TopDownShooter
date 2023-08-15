@@ -4,7 +4,7 @@
 velocidade = 5;
 velh	   = 0
 velv       = 0;
-
+vel_tiro   = 10
 
 movimentacao = function()
 {
@@ -44,6 +44,15 @@ atirando =  function()
 	var _dir = point_direction(x,y, mouse_x,mouse_y);
 	//Fazendo o Player olhar para a direção do mouse
 	image_angle = _dir;
+	
+	//Checando se estou aperando o botao do mouse esquerdo 
+	var _fire = mouse_check_button(mb_left);
+	if(_fire)
+	{
+		var _tiros = instance_create_layer(x,y,"Tiros", obj_tiro_player);
+		_tiros.direction = _dir ;
+		_tiros.speed = vel_tiro;		
+	}
 }
 
 
