@@ -13,5 +13,7 @@
 		3.1.1 - Criar uma Layer para instanciar o tiro - FEITO
 	3.2 - Fazer com que o jogador atire enquanto segura o botado do mouse sem usar evento mouse - FEITO
 	3.3 - Criar uma instancia para definir a direção do tiro - FEITO
-	
+	3.4 - Criando um efeito no tiro
+		3.4.1 - Importar a sprite do efeito do tiro - FEITO
+	3.5 - Fazendo o tiro se destruir - FEITO
 	
