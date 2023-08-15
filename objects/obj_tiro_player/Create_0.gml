@@ -11,6 +11,8 @@ demora_morte = room_speed * 4;
 //Variavel de dano
 dano = 1;
 
+shake = 3;
+
 
 //Metodo destruindo tiro
 morrendo = function()
@@ -63,6 +65,13 @@ colidi_inimigo = function()
 	  
 	  //Criando o impacto
 	  instance_create_layer(x,y,layer, obj_impacto_tiro);
+	  
+	 //Fazendo a tela tremer
+	 //Checar se o valor que eu vou passar eh maior que o valor atual
+	 //do screenshake
+	 
+	 if(global.shake < shake) global.shake = shake;
+	  
 	}
 	
 	

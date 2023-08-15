@@ -8,8 +8,10 @@ timer_movimento = room_speed * random_range(4,10);
 distancia  = 200;
 
 //Variavel de vida
-vida = 3;
+vida = 1;
 
+//Variavel shake
+shake = 5;
 
 //Metodo para definir velocidade e direção
 define_movimento = function ()
@@ -103,6 +105,9 @@ levar_dano = function(_dano)
 		
 		//Me explodindo
 		explodir();
+		
+		//Dando um valor para o screenshake
+		if(global.shake < shake ) global.shake = shake;
 	}
 		
 }

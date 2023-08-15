@@ -27,4 +27,8 @@
 		4.5.1 - Fazendo o inimigo explodir, criar pedaços da explosão - FEITO
 		4.5.2 - Destruindo pedaços do inimigo - FEITO
 		4.5.3 - Criando vestigios dos inimigos - FEITO
+		
+5 - Efeitos da tela
+	5.1 - Criar um objeto sceenshake e criar metodo treme_tela - FEITO
+	
 	
