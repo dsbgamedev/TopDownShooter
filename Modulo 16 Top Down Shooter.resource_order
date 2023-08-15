@@ -28,6 +28,7 @@
     {"name":"spr_bg2","order":1,"path":"sprites/spr_bg2/spr_bg2.yy",},
     {"name":"spr_inimigo1_strip8","order":1,"path":"sprites/spr_inimigo1_strip8/spr_inimigo1_strip8.yy",},
     {"name":"spr_pedaco_inimigo","order":3,"path":"sprites/spr_pedaco_inimigo/spr_pedaco_inimigo.yy",},
+    {"name":"obj_pedaco","order":3,"path":"objects/obj_pedaco/obj_pedaco.yy",},
     {"name":"spr_bg3","order":2,"path":"sprites/spr_bg3/spr_bg3.yy",},
     {"name":"spr_player_tiro","order":1,"path":"sprites/spr_player_tiro/spr_player_tiro.yy",},
     {"name":"Anotações","order":1,"path":"notes/Anotações/Anotações.yy",},

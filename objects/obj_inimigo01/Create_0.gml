@@ -100,6 +100,29 @@ levar_dano = function(_dano)
 	if(vida <= 0)
 	{
 		instance_destroy();
+		
+		//Me explodindo
+		explodir();
 	}
 		
+}
+
+//Metodo explodir o inimigo
+explodir = function()
+{
+	//Criando um numero aleatorio de pedaços
+	var _qtd = irandom_range(10,20);
+	
+	repeat(_qtd)//repete o valor da variavel _qtd
+	{
+		//Instanciando o pedaço
+		var _pedaco = instance_create_layer(x,y,"Tiros",obj_pedaco);
+		//Dando velocidade ao pedaco
+		_pedaco.speed = random_range(6,10);
+		//Dando uma direcao aleatorio ao pedaco
+		_pedaco.direction = irandom(359);
+		//fazendo ele olhar para onde vai
+		_pedaco.image_alpha = _pedaco.direction;
+	}
+	
 }

@@ -24,4 +24,5 @@
 	4.3 - Fazer com que o inimigo altera a direção de tempo em tmepo
 	4.4 - Fazer com que o inimigo siga o player caso o jogador esteja perto - FEITO
 	4.5 - Matando o inimigo ao levar tiro - FEITO
+		4.5.1 - Fazendo o inimigo explodir, criar pedaços da explosão - *
 	
