@@ -6,6 +6,10 @@ velh	   = 0
 velv       = 0;
 vel_tiro   = 10
 
+espera_tiro = 0;
+demora_tiro = room_speed * 0.2;//Meu tiro vai funcionar em 0.2 segundos
+
+
 movimentacao = function()
 {
 	var _up, _down, _left, _right;
@@ -47,12 +51,25 @@ atirando =  function()
 	
 	//Checando se estou aperando o botao do mouse esquerdo 
 	var _fire = mouse_check_button(mb_left);
-	if(_fire)
+	
+	//Só posso atirar SE o tiro for 
+	if(espera_tiro <= 0)
 	{
-		var _tiros = instance_create_layer(x,y,"Tiros", obj_tiro_player);
-		_tiros.direction = _dir ;
-		_tiros.speed = vel_tiro;		
+		if(_fire)
+		{
+			var _tiros = instance_create_layer(x,y,"Tiros", obj_tiro_player);
+			_tiros.direction = _dir ;
+			_tiros.speed = vel_tiro;	
+			
+			//Atirei? Então eu reseto o valor da espera do tiro
+			espera_tiro = demora_tiro;	
+		}
 	}
+	else //Espera tiro é maior do que 0, então eu diminuo ela
+	{
+		espera_tiro --;
+	}
+	
 }
 
 

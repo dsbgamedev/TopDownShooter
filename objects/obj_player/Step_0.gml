@@ -4,7 +4,4 @@
 movimentacao();
 
 atirando();
-
-
-
-
+	
