@@ -16,6 +16,8 @@ ped_max         = 30;
 //Tempo 
 temp_min        = 10;
 temp_max        = 20;
+//Distancia para ele seguir o player
+distancia       = 200;
 
 timer_movimento = room_speed * random_range(temp_min, temp_max);
 

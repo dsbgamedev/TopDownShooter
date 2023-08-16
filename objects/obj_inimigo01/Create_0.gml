@@ -23,28 +23,3 @@ temp_max        = 10;
 
 define_movimento();
 
-//Método inimigo persegue o player se estiver proximo
-seguir_player = function()
-{
-	//Checando a minha distancia para o player	
-	//Checando se o Player existe
-	if(instance_exists(obj_player))
-	{
-		//Pegando a distancia
-		var _dist_player = point_distance(x,y,obj_player.x,obj_player.y);
-		
-		//Seguindo o player SE ele estiver muito proximo
-		if(_dist_player < distancia)
-		{
-			//Pegando a direção do Player
-			var _dir = point_direction(x,y,obj_player.x,obj_player.y);
-			direction = _dir;
-			//usando uma velocidade padrão
-			speed = 1;
-		}
-	}
-	
-	
-}
-
-

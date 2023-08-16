@@ -5,6 +5,8 @@ mudar_movimento();
 
 ficar_room();
 
+seguir_player();
+
 
 
 

@@ -15,6 +15,9 @@ ped_max   = 2;
 temp_min = 1;
 temp_max = 2;
 
+//Distancia para ele seguir o player
+distancia       = 200;
+
 //Comportamentos comuns
 
 //Metodo para ficar na room
@@ -112,6 +115,30 @@ define_movimento = function ()
 	//Fazendo ele olhar para direção que ele vai
 	image_angle = direction;
 
+}
+
+//Método inimigo persegue o player se estiver proximo
+seguir_player = function()
+{
+	//Checando a minha distancia para o player	
+	//Checando se o Player existe
+	if(instance_exists(obj_player))
+	{
+		//Pegando a distancia
+		var _dist_player = point_distance(x,y,obj_player.x,obj_player.y);
+		
+		//Seguindo o player SE ele estiver muito proximo
+		if(_dist_player < distancia)
+		{
+			//Pegando a direção do Player
+			var _dir = point_direction(x,y,obj_player.x,obj_player.y);
+			direction = _dir;
+			//usando uma velocidade padrão
+			speed = 1;
+		}
+	}
+	
+	
 }
 
 
