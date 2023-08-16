@@ -63,6 +63,7 @@
     {"id":{"name":"spr_player_tiro","path":"sprites/spr_player_tiro/spr_player_tiro.yy",},},
     {"id":{"name":"Anotações","path":"notes/Anotações/Anotações.yy",},},
     {"id":{"name":"obj_ovo","path":"objects/obj_ovo/obj_ovo.yy",},},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"spr_tiro","path":"sprites/spr_tiro/spr_tiro.yy",},},
     {"id":{"name":"spr_inimigo2_strip8","path":"sprites/spr_inimigo2_strip8/spr_inimigo2_strip8.yy",},},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},},

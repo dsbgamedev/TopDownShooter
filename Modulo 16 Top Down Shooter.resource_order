@@ -39,6 +39,7 @@
     {"name":"spr_player_tiro","order":1,"path":"sprites/spr_player_tiro/spr_player_tiro.yy",},
     {"name":"Anotações","order":1,"path":"notes/Anotações/Anotações.yy",},
     {"name":"obj_ovo","order":5,"path":"objects/obj_ovo/obj_ovo.yy",},
+    {"name":"obj_control","order":5,"path":"objects/obj_control/obj_control.yy",},
     {"name":"spr_inimigo2_strip8","order":2,"path":"sprites/spr_inimigo2_strip8/spr_inimigo2_strip8.yy",},
     {"name":"spr_impacta_tiro","order":1,"path":"sprites/spr_impacta_tiro/spr_impacta_tiro.yy",},
     {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},

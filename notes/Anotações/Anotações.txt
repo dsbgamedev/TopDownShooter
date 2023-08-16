@@ -5,12 +5,18 @@
 	1.4 - Parar animação do Player quando ele estiver parado - FEITO
 	1.5 - Fazendo o player levar dano e morrer ao colidir com inimigo - FEITO
 	1.6 - Fazendo o plaer ficar invencicel por um tempo, depois ele morre - FEITO
-		1.6.1 - Dando um fedback visual de que o player esta invencivel	- *
-			1.6.1.1 - Fazendo o player ficar piscando enquanto ele estiver invencivel - *
+		1.6.1 - Dando um fedback visual de que o player esta invencivel	- FEITO
+			1.6.1.1 - Fazendo o player ficar piscando enquanto ele estiver invencivel - FEITO
 	
 2 - Room e Camera do jogo
 	2.1 - Redimencionando a room do jogo e a camera - FEITO
 	2.2 - Colocando a camera para seguir o objeto Player - FEITO
+	2.3 - Criando o controlador do jogo - FEITO
+		2.3.1 - Criar um objeto de controle e na room criar um create code - FEITO
+	2.4 - Fazendo o controlador iniciar o jogo
+		2.4.1 - Sempre que a room for iniciado o controlador vai criar o player se ele nao exite - *
+		2.4.2 - Criar um evento de room_star para criar o player em um local aleatorio - *
+		
 
 3 - Tiro do Player
 	3.1 - Criando a sprite e o objeto do tiro - *
