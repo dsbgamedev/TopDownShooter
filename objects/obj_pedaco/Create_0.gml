@@ -14,7 +14,10 @@ colidindo = function()
 		if(_inimigo)
 		{
 			//Executando a função de dano do inimigo
-			_inimigo.levar_dano();
+			_inimigo.levar_dano(1);
+			
+			//Destruindo o pedaço
+			instance_destroy();
 		}
 	}
 }

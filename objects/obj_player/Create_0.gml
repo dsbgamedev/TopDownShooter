@@ -96,7 +96,7 @@ levar_dano = function()
 		inv_timer = inv_tempo;
 	}
 	//Morrendo
-	if(global.vida < 0)
+	if(global.vida <= 0)
 	{
 	  //Me destruindo
 	  instance_destroy();
