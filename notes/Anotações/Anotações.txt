@@ -57,12 +57,12 @@
 	7.3 - Faça os inimigos herdarem o objeto pai - FEITO
 	
 8 - Deixando o jogo mais dinamico
-	8.1 - Crie uma variável para definir se o pedaço deve dar dano no inimigo - *
-	8.2 - Faça esse método só rodar se ele deve dar dano no inimigo - * 
-	8.3 - Crie uma variável no inimigo pai para definir se o pedaço que ele cria deve dar dano - *
-	8.4 - Faça o pedaço criado receber o valor dessa variável na variável dele de dar dano (ex: _pedaco.dar_dano = dar_dano) - *
-	8.5 - Faça o inimigo grande ter o valor como true da variável de dar dano - *
-	8.6 - Destrua o pedaço logo depois dele colidir com o inimigo e dar dano -
+	8.1 - Crie uma variável para definir se o pedaço deve dar dano no inimigo - FEITO
+	8.2 - Faça esse método só rodar se ele deve dar dano no inimigo - FEITO
+	8.3 - Crie uma variável no inimigo pai para definir se o pedaço que ele cria deve dar dano - FEITO
+	8.4 - Faça o pedaço criado receber o valor dessa variável na variável dele de dar dano (ex: _pedaco.dar_dano = dar_dano) - FEITO
+	8.5 - Faça o inimigo grande ter o valor como true da variável de dar dano - FEITO
+	8.6 - Destrua o pedaço logo depois dele colidir com o inimigo e dar dano - FEITO
 	
 
 	

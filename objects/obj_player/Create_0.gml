@@ -45,6 +45,20 @@ movimentacao = function()
 		//image_index = 0;
 	}
 	
+	fica_room();
+}
+
+
+fica_room = function()
+{
+	//Impedindo que ele saia pela esquerda
+	if(x - sprite_width / 2 < 0) x = sprite_width / 2;
+	//Impedindo que ele saia pela direita
+	if(x + sprite_width / 2 > room_width) x = room_width - sprite_width / 2;
+	
+	//Impedindo na vertical
+	y =  clamp(y, sprite_height/2, room_height - sprite_height/2);
+
 }
 
 atirando =  function()
