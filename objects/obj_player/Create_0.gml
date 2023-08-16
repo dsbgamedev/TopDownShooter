@@ -114,6 +114,9 @@ levar_dano = function()
 	{
 	  //Me destruindo
 	  instance_destroy();
+	  
+	  //Reiniciando o jogo
+	  game_restart();//Reinicia todo o jogo
 	}
 	
 }

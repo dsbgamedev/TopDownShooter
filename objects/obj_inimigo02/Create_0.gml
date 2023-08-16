@@ -5,7 +5,7 @@
 event_inherited();
 
 //Variavel de vida
-vida            = 1;
+vida            = 10;
 //Variavel shake
 shake           = 20;
 //Velocidade maxima
@@ -14,8 +14,8 @@ vel_max         = 2;
 ped_min         = 20;
 ped_max         = 30;
 //Tempo 
-temp_min        = 10;
-temp_max        = 20;
+temp_min        = 3;
+temp_max        = 12;
 //Distancia para ele seguir o player
 distancia       = 200;
 ped_vel_min     = 20;

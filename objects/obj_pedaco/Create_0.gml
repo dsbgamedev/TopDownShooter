@@ -16,6 +16,9 @@ colidindo = function()
 			//Executando a função de dano do inimigo
 			_inimigo.levar_dano(1);
 			
+			//Se eu acertar o inimigo ele vai criar pedaços que dão dano
+			//_inimigo.dar_dano = true;
+			
 			//Destruindo o pedaço
 			instance_destroy();
 		}
