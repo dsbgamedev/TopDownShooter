@@ -4,7 +4,9 @@
 velocidade = 5;
 velh	   = 0
 velv       = 0;
-vel_tiro   = 10
+vel_tiro   = 10;
+dano       = 2;
+vida       = 5;
 
 espera_tiro = 0;
 demora_tiro = room_speed * 0.2;//Meu tiro vai funcionar em 0.2 segundos
@@ -75,6 +77,25 @@ atirando =  function()
 	else //Espera tiro é maior do que 0, então eu diminuo ela
 	{
 		espera_tiro --;
+	}
+	
+}
+
+levar_dano = function()
+{
+	//Checando se eu colidi com o inimigo
+	var _inimigo = instance_place(x,y, obj_inimigo_pai);
+	if(_inimigo)
+	{
+		show_message(vida);
+		vida -= _inimigo.dano;
+		//show_message(vida);
+	}
+	
+	if(vida <= 0)
+	{
+	  //Me destruindo
+	  instance_destroy();
 	}
 	
 }

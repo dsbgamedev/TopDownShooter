@@ -3,6 +3,7 @@
 	1.2 - Criar o objeto Player - FEITO
 	1.3 - Fazendo o Player se movimentar em todas as direções - FIETO
 	1.4 - Parar animação do Player quando ele estiver parado - FEITO
+	1.5 - Fazendo o player levar dano e morrer ao colidir com inimigo - *
 	
 2 - Room e Camera do jogo
 	2.1 - rRedimencionando a room do jogo e a camera - FEITO
@@ -32,7 +33,9 @@
 5 - Efeitos da tela
 	5.1 - Criar um objeto sceenshake e criar metodo treme_tela - FEITO
 	
-6 - Inimigos Grandes
+6 - Inimigos02 Grande
+	1.1 - Importando as sprites e criando o objeto - FEITO
+	1.2 - Fazendo ele botar ovos - FEITO
 
 7 - Inimigo Pai
 	7.1 - Crie o objeto inimigo pai - FEITO

@@ -15,6 +15,8 @@ ped_max   = 2;
 temp_min = 1;
 temp_max = 2;
 
+//Variavel dano
+dano     = 1;
 //Distancia para ele seguir o player
 distancia       = 200;
 

@@ -7,7 +7,7 @@ ficar_room();
 
 seguir_player();
 
-
+bota_ovo();
 
 
 

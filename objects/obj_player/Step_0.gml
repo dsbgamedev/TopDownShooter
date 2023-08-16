@@ -4,4 +4,6 @@
 movimentacao();
 
 atirando();
+
+levar_dano();
 	

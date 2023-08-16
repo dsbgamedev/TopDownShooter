@@ -21,9 +21,26 @@ distancia       = 200;
 
 timer_movimento = room_speed * random_range(temp_min, temp_max);
 
+timer_ovo = room_speed * random_range(temp_min, temp_max);
+
 define_movimento();
 
-
+//Metodo botando ovo
+bota_ovo = function()
+{
+	timer_ovo--;
+	
+	if(timer_ovo <= 0)
+	{
+		var _ovo       = instance_create_layer(x,y,"Inimigos", obj_ovo);
+		_ovo.speed     = random(1);
+		//Fazendo o vo ir na direção inversa que eu estou indo
+		_ovo.direction = direction + 180;
+		
+		//Resetando o timer
+		timer_ovo = room_speed * random_range(temp_min,temp_max);
+	}
+}
 
 
 
