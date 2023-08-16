@@ -54,7 +54,7 @@ colidi_inimigo = function()
 	//no instance destroy
 	
 	//Variavel para checar colisão com algum objeto
-	var _inimigo = instance_place(x,y,obj_inimigo01);
+	var _inimigo = instance_place(x,y,obj_inimigo_pai);
 	
 	//Se eu colidir com algum inimigo eu tiro vida dele e me mato
 	if(_inimigo)
