@@ -16,10 +16,11 @@ inicia_room = function()
 	
 }
 
+//Metodo para gerar inimigos
 gera_inimigos = function()
 {
 	//Definindo a quantidade de inimigos
-	var _qtd = irandom_range(3,7);
+	var _qtd = irandom_range(10,17);
 	
 	repeat(_qtd)
 	{
@@ -45,6 +46,14 @@ gera_inimigos = function()
 	
 }
 
+//Metodo passando de level
+passa_level = function()
+{
+	//Checando quantos inimigos02 grandes existem
+	var _qtd_inimigos = instance_number(obj_inimigo02);
+	//Reiniciando o jogo se os inimigos tiverem acabados
+	if(_qtd_inimigos <= 0) room_restart();	
+}
 
 
 
