@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_inimigo01",
+  "name": "obj_inimigo_pai",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -12,10 +12,7 @@
     "name": "Inimigos",
     "path": "folders/Objects/Inimigos.yy",
   },
-  "parentObjectId": {
-    "name": "obj_inimigo_pai",
-    "path": "objects/obj_inimigo_pai/obj_inimigo_pai.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_inimigo_ovo_strip6",
-    "path": "sprites/spr_inimigo_ovo_strip6/spr_inimigo_ovo_strip6.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

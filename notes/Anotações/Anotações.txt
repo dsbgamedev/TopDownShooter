@@ -31,7 +31,13 @@
 5 - Efeitos da tela
 	5.1 - Criar um objeto sceenshake e criar metodo treme_tela - FEITO
 	
-5 - Inimigos Grandes
+6 - Inimigos Grandes
+
+7 - Inimigo Pai
+	7.1 - Crie o objeto inimigo pai - FEITO
+	7.2 - Crie os metodos e variaveis padrao dos inimigos no objeto pai - FEITO
+	7.3 - Faças os inimigos herdarem o objeto pai - FEITO
+	
 	
 	
 	

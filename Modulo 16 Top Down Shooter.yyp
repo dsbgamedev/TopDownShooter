@@ -46,6 +46,7 @@
     {"id":{"name":"spr_seta","path":"sprites/spr_seta/spr_seta.yy",},},
     {"id":{"name":"obj_rastro","path":"objects/obj_rastro/obj_rastro.yy",},},
     {"id":{"name":"spr_rastro","path":"sprites/spr_rastro/spr_rastro.yy",},},
+    {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
     {"id":{"name":"spr_bg2","path":"sprites/spr_bg2/spr_bg2.yy",},},
     {"id":{"name":"spr_inimigo1_strip8","path":"sprites/spr_inimigo1_strip8/spr_inimigo1_strip8.yy",},},

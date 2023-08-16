@@ -27,6 +27,7 @@
     {"name":"spr_seta","order":1,"path":"sprites/spr_seta/spr_seta.yy",},
     {"name":"obj_rastro","order":2,"path":"objects/obj_rastro/obj_rastro.yy",},
     {"name":"spr_rastro","order":4,"path":"sprites/spr_rastro/spr_rastro.yy",},
+    {"name":"obj_inimigo_pai","order":4,"path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},
     {"name":"obj_screenshake","order":4,"path":"objects/obj_screenshake/obj_screenshake.yy",},
     {"name":"spr_bg2","order":1,"path":"sprites/spr_bg2/spr_bg2.yy",},
     {"name":"spr_inimigo1_strip8","order":1,"path":"sprites/spr_inimigo1_strip8/spr_inimigo1_strip8.yy",},
