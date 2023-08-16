@@ -10,7 +10,7 @@ image_alpha -= 0.005;
 //Me destruindo ao sumir totalmente
 if(image_alpha <= 0) instance_destroy();
 
-
+colidindo();
 
 
 

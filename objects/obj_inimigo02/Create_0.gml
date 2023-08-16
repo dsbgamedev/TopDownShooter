@@ -18,6 +18,9 @@ temp_min        = 10;
 temp_max        = 20;
 //Distancia para ele seguir o player
 distancia       = 200;
+ped_vel_min     = 40;
+ped_vel_max     = 60;
+dar_dano        = true;
 
 timer_movimento = room_speed * random_range(temp_min, temp_max);
 

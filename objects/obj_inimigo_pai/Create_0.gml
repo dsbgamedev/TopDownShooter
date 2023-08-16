@@ -2,21 +2,28 @@
 // You can write your code in this editor
 
 //Variaveis comuns (atributos)
-vida      = 1;
+vida         = 1;
 //Variavel shake
-shake     = 1;
+shake        = 1;
 //Velocidade maxima
-vel_max   = 1;
+vel_max      = 1;
 //Pedaços inimigos
-ped_min   = 2;
-ped_max   = 2;
+ped_min      = 2;
+ped_max      = 2;
 
 //Tempo 
-temp_min = 1;
-temp_max = 2;
+temp_min     = 1;
+temp_max     = 2;
 
 //Variavel dano
-dano     = 1;
+dano         = 1;
+//Velocidade pedaco dano
+ped_vel_min = 8;
+ped_vel_max = 15;
+//Dar dano
+dar_dano = false;
+
+
 //Distancia para ele seguir o player
 distancia       = 200;
 
@@ -80,11 +87,14 @@ explodir = function()
 		//Instanciando o pedaço
 		var _pedaco = instance_create_layer(x,y,"Tiros",obj_pedaco);
 		//Dando velocidade ao pedaco
-		_pedaco.speed = random_range(8,15);
+		_pedaco.speed = random_range(ped_vel_min,ped_vel_max);
 		//Dando uma direcao aleatorio ao pedaco
 		_pedaco.direction = irandom(359);
 		//fazendo ele olhar para onde vai
 		_pedaco.image_angle = _pedaco.direction;
+		
+		//Informando se o meu pedaço deve ou não colidir
+		_pedaco.dar_dano = dar_dano;
 	}
 	
 }

@@ -14,10 +14,15 @@
 	2.3 - Criando o controlador do jogo - FEITO
 		2.3.1 - Criar um objeto de controle e na room criar um create code - FEITO
 	2.4 - Fazendo o controlador iniciar o jogo
-		2.4.1 - Sempre que a room for iniciado o controlador vai criar o player se ele nao exite - *
-		2.4.2 - Criar um evento de room_star para criar o player em um local aleatorio - *
+		2.4.1 - Sempre que a room for iniciado o controlador vai criar o player se ele nao exite - FEITO
+		2.4.2 - Criar um evento de room_star para criar o player em um local aleatorio - FIETO
+	2.5 - Mudando o level do jogo - FEITO	
+	2.6 - Mudando a room do jogo -
+		2.6.1 - Sempre que o level for gerado o controlador altera a altura e a largura da room - FEITO
+		2.6.2 - Mudando o background da room e fazendo ele eescolher sozinho - FEITO
+		2.6.3 - Exibindo a vida e o level -
+			2.6.3.1 - Usar o controlador para criar uma variavel global de vida e colocar essa varivael no Player - FEITO		
 		
-
 3 - Tiro do Player
 	3.1 - Criando a sprite e o objeto do tiro - *
 		3.1.1 - Criar uma Layer para instanciar o tiro - FEITO
@@ -50,6 +55,14 @@
 	7.1 - Crie o objeto inimigo pai - FEITO
 	7.2 - Crie os metodos e variaveis padrao dos inimigos no objeto pai - FEITO
 	7.3 - Faça os inimigos herdarem o objeto pai - FEITO
+	
+8 - Deixando o jogo mais dinamico
+	8.1 - Crie uma variável para definir se o pedaço deve dar dano no inimigo - *
+	8.2 - Faça esse método só rodar se ele deve dar dano no inimigo - * 
+	8.3 - Crie uma variável no inimigo pai para definir se o pedaço que ele cria deve dar dano - *
+	8.4 - Faça o pedaço criado receber o valor dessa variável na variável dele de dar dano (ex: _pedaco.dar_dano = dar_dano) - *
+	8.5 - Faça o inimigo grande ter o valor como true da variável de dar dano - *
+	8.6 - Destrua o pedaço logo depois dele colidir com o inimigo e dar dano -
 	
 
 	

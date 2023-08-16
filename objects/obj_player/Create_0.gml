@@ -6,7 +6,6 @@ velh	   = 0
 velv       = 0;
 vel_tiro   = 10;
 dano       = 2;
-vida       = 5;
 inv        = false;
 inv_tempo  = room_speed * 3;
 inv_timer  = 0;
@@ -92,12 +91,12 @@ levar_dano = function()
 	//Levando dano apenas se eu não estou invencivel
 	if(_inimigo && inv == false)
 	{
-		vida -= _inimigo.dano;
+		global.vida -= _inimigo.dano;
 		//Ficando invencivel
 		inv_timer = inv_tempo;
 	}
 	//Morrendo
-	if(vida < 0)
+	if(global.vida < 0)
 	{
 	  //Me destruindo
 	  instance_destroy();
