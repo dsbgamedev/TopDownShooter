@@ -12,7 +12,10 @@
     "name": "Inimigos",
     "path": "folders/Objects/Inimigos.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_inimigo_pai",
+    "path": "objects/obj_inimigo_pai/obj_inimigo_pai.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

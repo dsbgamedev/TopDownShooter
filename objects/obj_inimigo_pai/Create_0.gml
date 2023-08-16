@@ -111,7 +111,7 @@ define_movimento = function ()
 
 	//Fazendo ele olhar para direção que ele vai
 	image_angle = direction;
-	
+
 }
 
 

@@ -3,12 +3,6 @@
 
 
 
-nao_sair_tela();
-
-recebe_dano();
-
-
-
 
 
 

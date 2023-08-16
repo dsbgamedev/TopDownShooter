@@ -1,33 +1,29 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-vida = 10;
+//Herdar as informaçoes do meu pai
+event_inherited();
 
-timer_movimento = room_speed * random_range(5, 15);
+//Variavel de vida
+vida            = 1;
+//Variavel shake
+shake           = 20;
+//Velocidade maxima
+vel_max         = 2;
+//Pedaços Inimigo
+ped_min         = 15;
+ped_max         = 30;
+//Tempo 
+temp_min        = 10;
+temp_max        = 20;
 
-//Inicia movimento
-inicia_movimento = function()
-{
-	speed = random(2);
-	direction = irandom(359);
-	image_angle = direction;
-}
+timer_movimento = room_speed * random_range(temp_min, temp_max);
 
-inicia_movimento();
+define_movimento();
 
-//Timer movimento
-mudar_movimento = function()
-{
 
-	timer_movimento--;
-	if(timer_movimento <= 0)
-	{
-		inicia_movimento();
-		
-		timer_movimento = random_range(5,15) * room_speed;
-	}
-	
-}
+
+
 
 
 
