@@ -11,15 +11,15 @@ shake           = 20;
 //Velocidade maxima
 vel_max         = 2;
 //Pedaços Inimigo
-ped_min         = 15;
+ped_min         = 20;
 ped_max         = 30;
 //Tempo 
 temp_min        = 10;
 temp_max        = 20;
 //Distancia para ele seguir o player
 distancia       = 200;
-ped_vel_min     = 40;
-ped_vel_max     = 60;
+ped_vel_min     = 20;
+ped_vel_max     = 40;
 dar_dano        = true;
 
 timer_movimento = room_speed * random_range(temp_min, temp_max);
