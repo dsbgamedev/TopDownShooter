@@ -7,6 +7,9 @@ velv       = 0;
 vel_tiro   = 10;
 dano       = 2;
 vida       = 5;
+inv        = false;
+inv_tempo   = room_speed * 3;
+inv_timer  = 0;
 
 espera_tiro = 0;
 demora_tiro = room_speed * 0.2;//Meu tiro vai funcionar em 0.2 segundos
@@ -85,13 +88,14 @@ levar_dano = function()
 {
 	//Checando se eu colidi com o inimigo
 	var _inimigo = instance_place(x,y, obj_inimigo_pai);
-	if(_inimigo)
+	//Levando dano apenas se eu não estou invencivel
+	if(_inimigo && inv == false)
 	{
-		show_message(vida);
 		vida -= _inimigo.dano;
-		//show_message(vida);
+		//Ficando invencivel
+		inv_timer = inv_tempo;
 	}
-	
+	//Morrendo
 	if(vida <= 0)
 	{
 	  //Me destruindo
@@ -100,7 +104,21 @@ levar_dano = function()
 	
 }
 
-
+//Perdendo invencibilidade
+invencivel = function()
+{
+	
+	if(inv_timer <= 0)
+	{
+		//Deixo de ser invencivel
+		inv = false;
+	}
+	else
+	{
+		inv_timer--;
+		inv = true;
+	}
+}
 
 
 

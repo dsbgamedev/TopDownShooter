@@ -6,4 +6,8 @@ movimentacao();
 atirando();
 
 levar_dano();
+
+invencivel();
+
+//show_debug_message(inv_timer);
 	
