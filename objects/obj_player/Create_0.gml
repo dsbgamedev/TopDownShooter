@@ -8,8 +8,9 @@ vel_tiro   = 10;
 dano       = 2;
 vida       = 5;
 inv        = false;
-inv_tempo   = room_speed * 3;
+inv_tempo  = room_speed * 3;
 inv_timer  = 0;
+alpha_val  = 0.05;
 
 espera_tiro = 0;
 demora_tiro = room_speed * 0.2;//Meu tiro vai funcionar em 0.2 segundos
@@ -96,7 +97,7 @@ levar_dano = function()
 		inv_timer = inv_tempo;
 	}
 	//Morrendo
-	if(vida <= 0)
+	if(vida < 0)
 	{
 	  //Me destruindo
 	  instance_destroy();
@@ -107,17 +108,25 @@ levar_dano = function()
 //Perdendo invencibilidade
 invencivel = function()
 {
-	
 	if(inv_timer <= 0)
 	{
 		//Deixo de ser invencivel
 		inv = false;
+		//Eu fico visivel
+		image_alpha = 1;
 	}
 	else
 	{
 		inv_timer--;
 		inv = true;
+		//Alerando o imagem_alpha
+		image_alpha += alpha_val;
+		//Alterando o alpha_val com base na transparencia
+		if(image_alpha > 1 or image_alpha < 0) alpha_val *= -1;	
+	
 	}
+	
+	
 }
 
 
